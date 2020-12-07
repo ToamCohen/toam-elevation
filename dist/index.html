@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<script id="chart-template" type="text/x-handlebars-template">
+			{{#each data}}
+				{{#each this}}
+					<div class="content">
+						{{this}}
+					</div>
+				{{/each}}
+			{{/each}}
+		</script>
+		<script src="./jquery/dist/jquery.js"></script>
+		<script src="./handlebars/dist/handlebars.js"></script>
+		<script src="ModelChart.js"></script>
+		<script src="model.js"></script>
+		<script src="renderer.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

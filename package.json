@@ -1,0 +1,18 @@
+{
+  "name": "ariel",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "handlebars": "^4.7.6",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
